@@ -1,0 +1,11 @@
+{
+  "name": "quikservice",
+  "version": "1.0.0",
+  "description": "QUIKService — AI-Powered Local Service Provider Platform",
+  "scripts": {
+    "install": "cd backend && npm install",
+    "seed": "cd backend && node seed.js",
+    "start": "cd backend && node server.js",
+    "setup": "cd backend && npm install && node seed.js && echo '✅ Setup complete! Run: npm start'"
+  }
+}
